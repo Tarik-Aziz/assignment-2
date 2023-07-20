@@ -1,5 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    height: 3000px;
 }
 .logo{
     display: flex;
@@ -58,4 +59,134 @@ line-height: normal;
     background: rgba(11, 2, 35, 0.10);
     padding: 6px;
     
+}
+.banner{
+    background-image: url(../images/Group\ 14.png);
+    display: flex;
+    justify-content: space-between;
+    padding: 200px;
+    gap: 150px;
+}
+.play{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.goat{
+    text-align: center;
+font-family: Work Sans;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+}
+.goat-link{
+    display: flex;
+    align-items: center;
+}
+.click{
+    
+   height: 20px;
+   width: 20px;
+
+}
+.btn{
+    display: inline-flex;
+padding:20px 0px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 100px;
+text-align: left;
+
+}
+.sign{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: none;
+}
+.go{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+border: none;
+}
+.online-h2{
+    text-align: center;
+}
+.online-p{
+    text-align: center;
+}
+.online-sec{
+    /* display: flex; */
+}
+.pic-dive{
+display: flex;
+gap: 10px;
+padding-left: 40px;
+padding-right: 30px;
+}
+.pi{
+    /* text-align: right; */
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    /* font-weight: 700; */
+    /*line-height: 60px; 125%*/
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.pg{
+    width: 353px;
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.doble-pic{
+    display: flex;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+.img-1{
+position: relative;
+}
+.img-2{
+position: relative;
+top: -230px;
+left: -136px;
+}
+.icon1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.icon2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.icon{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footer{
+    background: #0B0223;
 }
